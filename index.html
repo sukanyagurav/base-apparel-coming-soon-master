@@ -27,11 +27,12 @@
     </p>
     <form class="subscription" novalidate id="form">
 
-      <small class="error"></small>
-      <input type="email" id="email" aria-labelledby="email address" placeholder="Email Address">
+      <label for ="email" class="error"></label>
+      <input type="email" id="email" aria-label="email address" placeholder="Email Address">
       <span class="fas fa-exclamation-circle" aria-hidden="true"></span>
 
-      <button class="btn" aria-labelledby="submit">
+      <button class="btn" aria-label="submit">
+        <span class="sr-only">Submit</span>
         <img src="images/icon-arrow.svg" alt="" aria-hidden="true">
       </button>
   
